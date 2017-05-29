@@ -1,0 +1,128 @@
+/*_________________________TAB____________________________*/
+
+div.tab_menu {
+    font: 9pt Arial;
+    line-height: 16px;
+    height: 34px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    display: -moz-inline-stack;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+}
+
+div.select_tab {
+    float: left;
+    background: url('../images/current_tab.png') no-repeat center;
+    cursor: pointer;
+    height: 34px;
+    width: 130px;
+    text-align: center;
+    font: bold 11px Arial;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 0px 10px;
+    display: inline-block;
+    display: -moz-inline-stack;
+    zoom: 1;
+    *display: inline;
+}
+
+div.non_select_tab {
+    float: left;
+    text-align: center;
+    width: 130px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 0px 10px;
+    font-weight: bold;
+    display: inline-block;
+    display: -moz-inline-stack;
+    zoom: 1;
+    *display: inline;
+}
+
+div.non_select_txt {
+    cursor: pointer;
+    color: #1e88cc !important;
+}
+
+div.select_txt {
+    cursor: pointer;
+    color: #000;
+    font-size: 12px !important;
+}
+
+#load_1 {
+    display: block;
+}
+
+#load_2 {
+    display: none;
+}
+
+#load_3 {
+    display: none;
+}
+
+#load_alone {
+    display: none;
+}
+
+
+/*_______boxes_________*/
+
+div.box_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+div.box_content {
+    text-align: left;
+    background: #efefef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+}
+
+
+/*border:solid 5px #000;*/
+
+
+/*_______small box______*/
+
+div.main_content {
+    margin-left: 10px;
+}
+
+div.small_box_top {
+    float: left;
+    background: #EFEFEF;
+    width: 100%;
+    height: 3px;
+    border-top: solid 1px #cccccc;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+}
+
+div.small_box_middle {
+    float: left;
+    background: #EFEFEF;
+    width: 100%;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+}
+
+div.small_box_bottom {
+    float: left;
+    background: #EFEFEF;
+    width: 100%;
+    height: 3px;
+    border-bottom: solid 1px #cccccc;
+}

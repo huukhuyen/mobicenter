@@ -1,0 +1,33 @@
+/*______________________________ HTML CSS________________________________*/
+
+body 			{height: 100%; width: 100%;	margin:0; padding:0; font: 12px Arial; line-height: 20px; color:#5e5e5e; background: #e0e0da url('../images/login/bg.jpg') fixed center; color:#000; }
+body.blank 		{background: transparent;}
+
+
+.clearfix:after {content: "."; display: block; clear: both;	visibility: hidden;	line-height: 0;	height: 0;}
+.clearfix 		{display: inline-block;}
+html[xmlns] .clearfix 		{display: block;}
+.text			{text-shadow: 1px 1px 1px rgba(255,255,255,0.6);}
+.input			{background-color: #FFFFFF;height: auto;width:165px; padding: 3px 5px; font: bold 11px Arial;border: 1px solid #a5d2ff; color: #1d88ca;}
+
+.input:hover		{background-color: #ffffdd;}
+.button 		{border: none;background: url('../images/login/button.png') no-repeat top left;width:80px; height:26px; color:#FFF; font-size:12px;}
+.button2 		{border: none;background: url('../images/login/button2.png') no-repeat top left;width:120px; height:26px; color:#FFF; font-size:12px;}
+
+
+/*______________________________ AJAX CONTROL___________________________*/
+#loading		{height:20px; font-weight:bold; color:#F00;}
+
+
+/*______________________________ BOX________________________________*/
+.box_bg			{background:url('../images/login/box_bg.png') center no-repeat; width:527px; height:323px;padding:140px;}
+.margin_box_bg	{padding-top:40px; text-align:left; margin-left:60px; height:25px;}
+.txt_login		{background:url('../images/login/txtLogin.png'); width:41px ; height:12px;}
+.txt_cp			{width:316px; height:13px; font-weight:bold; font-size: 16px; font-family:Georgia;}
+.box_small_bg	{background:url('../images/login/box_small_bg.png') center no-repeat; width:430px; height:212px;}
+
+.icon_lock		{float:left; width:100px; height:100px; background:url('../images/login/icon_lock.png') center no-repeat; margin-top:5px; margin-left:25px;}
+.icon_forget	{float:left; width:100px; height:100px; background:url('../images/login/icon_password.png') center no-repeat; margin-top:5px; margin-left:25px;}
+.table_login	{float:left;width:290px; height:140px; }
+.table_td		{font-weight:bold; font-family:Arial; width:70px;}
+.table_button	{margin-top:5px; width: 100%; }

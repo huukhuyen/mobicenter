@@ -1,0 +1,18 @@
+table.data {
+text-align: center;border-collapse: collapse;margin-bottom: 15px;width:550px;
+}	
+	table.data thead {
+background: #2B519A;
+color: white;
+font-weight: bold;
+}
+
+table.data thead td {
+background: #00A9DD;
+color: white;
+font-weight: bold;
+border-top: none;
+border-right: 1px solid #2B519A;
+border-left: 1px solid #2B519A;
+border-bottom: 1px solid #00A9DD;
+}
